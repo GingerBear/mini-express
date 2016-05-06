@@ -41,7 +41,9 @@ var app = express();
 app.use('/', function(req, res) {
   res.send('hello express');
 });
+```
 
+```js
 // express-mini/express-1.js
 function express() {
 
@@ -104,7 +106,9 @@ app.post('/', function(req, res) {
     res.send('mini express post data: ' + Buffer.concat(chunk));
   })
 });
+```
 
+```js
 // express-mini/express-2.js
 function express() {
 
@@ -210,8 +214,9 @@ function middleware3(req, res, next) {
   console.log('passing middleware 3');
   next();
 }
+```
 
-
+```js
 // express-mini/express-3.js
 function express() {
 
