@@ -90,7 +90,7 @@ function handle404(req, res) {
 
 ```
 
-#### http method routing api and implementaion
+#### method routing api and implementaion
 
 ```js
 // express-mini/app-2.js
