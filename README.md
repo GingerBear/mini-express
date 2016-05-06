@@ -65,6 +65,8 @@ function express() {
 
     for (var i = 0; i < routes.length; i++) {
       var route = routes[i];
+      // here use exact match for simplicity
+      // should use regex in reality
       if (pathname === route[0]) {
         var action = route[1];
         action(req, res);
